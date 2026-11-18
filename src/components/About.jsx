@@ -16,7 +16,7 @@ export default function About() {
             alt="Architectural heating and cooling equipment in a contemporary setting"
           />
           <div className="about-caption">
-            <p>A demonstration brand for London climate design.</p>
+            <p>Heating, cooling and ventilation for London interiors.</p>
           </div>
         </motion.div>
 
@@ -30,19 +30,18 @@ export default function About() {
           <p className="eyebrow">About Airflow Climate</p>
           <h2>Climate designed around the way London lives and works.</h2>
           <p>
-            Airflow Climate is a fictional HVAC service brand created for this portfolio
-            demonstration. It represents a London studio that treats heating, cooling and
-            ventilation as part of the architecture — quiet, precise and tailored to the room,
-            not merely the plant.
+            Airflow Climate is a London HVAC studio that treats heating, cooling and ventilation
+            as part of the architecture — quiet, precise and tailored to the room, not merely the
+            plant. The approach is calm and professional: a conversation first, then a clear
+            proposal, then work carried out with care for the interior.
           </p>
           <p>
-            The tone of the brand is calm and professional: conversations first, then a clear
-            proposal, then work carried out with care for the interior. Nothing here is a real
-            company history, certification or trading record. It is a design study of how a
-            high-end British HVAC practice might present itself.
+            This website is a portfolio demonstration of how a high-end British climate practice
+            might present itself. It does not represent a trading company, and no company history
+            or certifications are claimed here.
           </p>
           <ul className="about-points">
-            <li>London-focused demonstration brand</li>
+            <li>London homes, apartments and workplaces</li>
             <li>Residential and commercial interiors</li>
             <li>Heating, cooling and ventilation as one conversation</li>
           </ul>

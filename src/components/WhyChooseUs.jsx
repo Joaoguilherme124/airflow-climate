@@ -17,7 +17,7 @@ export default function WhyChooseUs() {
         <SectionHeading
           eyebrow="Why choose us"
           title="A calmer way to plan indoor comfort"
-          intro="These benefits describe the intended client experience for this demonstration brand. They are not performance claims or guarantees."
+          intro="A considered client experience for homes and workplaces across London — without jargon, and without overstatement."
         />
 
         <div className="benefit-grid">

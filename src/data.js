@@ -1,3 +1,9 @@
+export const studioContact = {
+  location: 'London, United Kingdom',
+  email: 'hello@airflowclimate.co.uk',
+  phone: '+44 (0)20 7946 0123',
+}
+
 export const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#services', label: 'Services' },

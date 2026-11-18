@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { CheckCircle2 } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { serviceOptions } from '../data.js'
+import { serviceOptions, studioContact } from '../data.js'
 
 const initial = {
   name: '',
@@ -58,23 +58,25 @@ export default function Contact() {
       <div className="container contact-grid">
         <div>
           <p className="eyebrow">Contact</p>
-          <h2>Request a demonstration quote</h2>
+          <h2>Request a free quote</h2>
           <p className="section-intro">
-            Complete the form to see how an enquiry experience could feel. Your details stay in
-            the browser for this demo and are not transmitted to a company.
+            Share a few details about the property and the system you have in mind. A member of
+            the studio can then outline a considered next step.
           </p>
           <dl className="contact-details">
             <div>
               <dt>Studio</dt>
-              <dd>London, United Kingdom</dd>
+              <dd>{studioContact.location}</dd>
             </div>
             <div>
               <dt>Email</dt>
-              <dd>hello@airflowclimate.demo</dd>
+              <dd>
+                <a href={`mailto:${studioContact.email}`}>{studioContact.email}</a>
+              </dd>
             </div>
             <div>
               <dt>Telephone</dt>
-              <dd>+44 (0)20 0000 0000</dd>
+              <dd>{studioContact.phone}</dd>
             </div>
           </dl>
         </div>
@@ -217,10 +219,10 @@ export default function Contact() {
               </div>
 
               <button className="btn btn-primary" type="submit">
-                Submit demonstration enquiry
+                Request a Free Quote
               </button>
               <p className="form-note">
-                Demonstration only — this form does not contact a real HVAC company.
+                Demonstration form — your details stay in the browser and are not sent to a company.
               </p>
             </motion.form>
           )}

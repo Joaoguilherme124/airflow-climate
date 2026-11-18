@@ -1,5 +1,5 @@
 import Logo from './Logo.jsx'
-import { navLinks, services } from '../data.js'
+import { navLinks, services, studioContact } from '../data.js'
 
 export default function Footer() {
   return (
@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="footer-brand">
           <Logo />
           <p>
-            A fictional London HVAC demonstration brand. Heating, cooling and ventilation
-            presented with a premium British sensibility.
+            Heating, cooling and ventilation for London interiors, presented with a considered
+            British sensibility.
           </p>
         </div>
 
@@ -38,11 +38,11 @@ export default function Footer() {
         <div>
           <h2>Contact</h2>
           <ul>
-            <li>London, United Kingdom</li>
+            <li>{studioContact.location}</li>
             <li>
-              <a href="mailto:hello@airflowclimate.demo">hello@airflowclimate.demo</a>
+              <a href={`mailto:${studioContact.email}`}>{studioContact.email}</a>
             </li>
-            <li>+44 (0)20 0000 0000</li>
+            <li>{studioContact.phone}</li>
           </ul>
         </div>
       </div>

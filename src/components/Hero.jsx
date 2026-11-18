@@ -28,9 +28,9 @@ export default function Hero() {
           Comfort You Can Count On.
         </motion.h1>
         <motion.p className="hero-copy" variants={fade} initial="hidden" animate="show" custom={0.32}>
-          Airflow Climate is a fictional London HVAC studio created for this demonstration.
-          The site explores how heating, cooling and ventilation can be presented with quiet
-          confidence — considered systems, considered spaces, and a calm client experience.
+          Heating, cooling and ventilation for London homes and workplaces — discreet systems,
+          considered interiors, and a calm, professional client experience from first conversation
+          to completed installation.
         </motion.p>
         <motion.div className="hero-actions" variants={fade} initial="hidden" animate="show" custom={0.44}>
           <a className="btn btn-primary" href="#contact">

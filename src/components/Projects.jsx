@@ -9,7 +9,7 @@ export default function Projects() {
         <SectionHeading
           eyebrow="Selected studies"
           title="Illustrative portfolio examples"
-          intro="The following cards are demonstration concepts only. They are not verified customer projects, completed installations or case studies from a real company."
+          intro="A selection of demonstration schemes for distinctive London interiors. Each card is an illustrative concept, not a verified customer installation."
         />
 
         <div className="project-grid">
